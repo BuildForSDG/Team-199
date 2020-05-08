@@ -8,7 +8,9 @@ function App() {
 		<div>
 			<NavBar />
 			<div className="container">
-				<SearchBar />
+				<div className="mt-3">
+					<SearchBar />
+				</div>
 			</div>
 		</div>
 	);

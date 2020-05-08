@@ -1,0 +1,9 @@
+.search-bar {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.no-padding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
