@@ -1,9 +1,8 @@
-# WYR
-<br>
-*Where You Are* - bringing services to you, even if you don't have a formal address.
+# WYR - *Where You Are*
+Bringing services to you, even if you don't have a formal address.
 
- ## No formal housing, no way to find you
- So many Africans do not live in formal housing and therefore also don't have a formal address.
+## No formal housing, no way to find you
+So many Africans do not live in formal housing and therefore also don't have a formal address.
 
 This excludes them from simple services such as getting items delivered to their door, to critical services if they need to be found by emergency services.
 
