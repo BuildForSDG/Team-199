@@ -17,7 +17,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.hrw.org/sites/default/files/styles/square/public/multimedia_images_2017/gambia_presser_1-18-17.jpg?itok=1jrRtAVx) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              <b>POLICE</b>POLICE
             </CardText>
             <CardActions border>
               <Button colored>Report Emergency</Button>
@@ -27,7 +27,6 @@ class Projects extends Component {
             </CardMenu>
           </Card>
         </div>
-
 
       )
     } else if(this.state.activeTab === 1) {

@@ -17,6 +17,12 @@ class Landing extends Component {
             <div className="banner-text">
               <h1>Where You Are</h1>
 
+              <html>
+                <head>
+              <script async type="text/javascript" src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/83690090850ab037d41d8443a709c66091f290787b81e75fd70b4a9f9ac0f475.js"></script>
+              </head>
+              </html>
+
             <hr/>
 
          <p>Reach Us on our social media platforms</p>
@@ -42,6 +48,7 @@ class Landing extends Component {
           <a href="https://www.youtube.com/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
           </a>
+          
 
         </div>
             </div>

@@ -27,6 +27,18 @@
   padding: 2em;
 }
 
+.emergency-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 60px;
+}
+
+.about-page {
+  color: white;
+}
+
 /* contact page css */
 
 .contact-body {
