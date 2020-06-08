@@ -18,6 +18,7 @@
 
 .projects-grid {
   display: flex;
+  background: url('../src/emergency.jpg');
 }
 
 /* Resume Page css */
@@ -36,7 +37,11 @@
 }
 
 .about-page {
-  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 40px;
 }
 
 /* contact page css */

@@ -75,6 +75,7 @@ class Projects extends Component {
         </div>
 
       )
+
     } else if(this.state.activeTab === 1) {
     //   return (
     //     <div className="fire-rescue">

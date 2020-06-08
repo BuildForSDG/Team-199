@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Our Company Profile</h2>
+            <h2>Where You Are</h2>
             <img
               src="https://th.bing.com/th/id/OIP.msEcYkuMKr9RniXg-JsNgAHaHa?pid=Api&rs=1"
               alt="avatar"
