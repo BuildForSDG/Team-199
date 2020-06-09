@@ -18,12 +18,12 @@ To address this issue, no pun intended, we will leveraging off the concept creat
 
 To illustrate the difference between What3Words and GPS coordinates let see which address format for Andela's Headoffice would you prefer to remember off by heart:
 
-| Format | Andela HQ |
-|---|---|
-|	Degrees, Minutes and Seconds | DDD° MM' SS.S"  |
-| Degrees and Decimal Minutes | DDD° MM.MMM' |
-| Decimal Degrees  | DDD.DDDDD°   | 
-| What3Words  |  ///  | 
+| Type | Format | Andela in Lagos Nigeria |
+|---|---|---|
+| Degrees, Minutes and Seconds | DDD° MM' SS.S"  | 6°33'13.5"N 3°21'59.5"E |
+| Degrees and Decimal Minutes | DDD° MM.MMM' | 6° 33.2257 'N 3° 21.9924 'E |
+| Decimal Degrees  | DDD.DDDDD°   |  6.553762, 3.366540 |
+| What3Words  |  ///  |  [///slurs.magnets.extra](https://what3words.com/slurs.magnets.extra) |
 
 Which one wat the easiest for you to memorise? What3Words is simple and there is only one format so it can be confusing like with the GPS formats.
 
@@ -33,9 +33,10 @@ _Add demo to get a user's What3Words from address_
 
 ## How we can use the tech to find out 'where you are'
 
-* Demo - Delivery/logistics
 * Demo - Emergency services
-* Demo - Tourism spots
+* Other possible applications
+  * Tourism spots
+  * Delivery/logistics
 
 ## Who we are
 We are a group of developers that entered Facebook Developer Circles and Andela's challenge called *[Build for Sustainable Development Goals](https://buildforsdg.andela.com/)* or #BuildForSDG for short. For the innovation phase, we were grouped together as Team-199 and come up with a solution to address social issues.
