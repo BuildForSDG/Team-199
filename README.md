@@ -1,7 +1,7 @@
 # WYR - *Where You Are*
 
-
 ## No formal housing, no way to find you
+
 So many Africans do not live in formal housing and therefore also don't have a formal address.
 
 This excludes them from simple services such as getting items delivered to their door, to critical services if they need to be found by emergency services.
@@ -14,7 +14,7 @@ To address this issue, no pun intended, we will leveraging off the concept creat
 >
 > GPS or Global Positioning System is an excellent method to pinpoint a specific location.
 >
-> So how simple is it to remember these coordinates? Also, there are three common formats for coordinates that you can use. 
+> So how simple is it to remember these coordinates? Also, there are three common formats for coordinates that you can use.
 
 To illustrate the difference between What3Words and GPS coordinates let see which address format for Andela's Headoffice would you prefer to remember off by heart:
 
@@ -30,7 +30,6 @@ Which one wat the easiest for you to memorise? What3Words is simple and there is
 Want to find out What3Words constitute your address or a favourite meeting spot?
 _Add demo to get a user's What3Words from address_
 
-
 ## How we can use the tech to find out 'where you are'
 
 * Demo - Emergency services
@@ -39,6 +38,7 @@ _Add demo to get a user's What3Words from address_
   * Delivery/logistics
 
 ## Who we are
+
 We are a group of developers that entered Facebook Developer Circles and Andela's challenge called *[Build for Sustainable Development Goals](https://buildforsdg.andela.com/)* or #BuildForSDG for short. For the innovation phase, we were grouped together as Team-199 and come up with a solution to address social issues.
 
-_List GitHub profiles of team members_ 
+_List GitHub profiles of team members_
