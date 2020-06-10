@@ -19,7 +19,7 @@ Here are the links about the 2020 challenge for #BuildForSDG and the organisers:
 If your curious about our idea and want to fork it on GitHub go ahead. If you build something cool please tweet me [Carike](https://twitter.com/carikebstaden) as we would love to hear from you!
 
 - Frontend repo on GitHub called [BuildForSDG/Team-199](https://github.com/BuildForSDG/Team-199)
-- -Backend repo on GitHub called [BuildForSDG/Team-199_Backend](https://github.com/BuildForSDG/Team-199_Backend)
+- Backend repo on GitHub called [BuildForSDG/Team-199_Backend](https://github.com/BuildForSDG/Team-199_Backend)
 - [Project website](https://github.com/BuildForSDG/Team-199)
 
 ## Think What3Words deserves a closer look
