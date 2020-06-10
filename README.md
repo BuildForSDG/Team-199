@@ -1,12 +1,10 @@
-# WYR - *Where You Are*
-
-## No formal housing, no way to find you
+# No formal housing, no way to find you
 
 So many Africans do not live in formal housing and therefore also don't have a formal address.
 
 This excludes them from simple services such as getting items delivered to their door, to critical services if they need to be found by emergency services.
 
-## Solving this challenge with just three words
+# Solving this challenge with just three words
 
 To address this issue, no pun intended, we will leveraging off the concept created by [What3Words](https://what3words.com/) where they divided the whole world in 3m by 3m squares. Each of those squares has been assigned a unique three-word combination.
 
@@ -30,15 +28,9 @@ Which one wat the easiest for you to memorise? What3Words is simple and there is
 Want to find out What3Words constitute your address or a favourite meeting spot?
 _Add demo to get a user's What3Words from address_
 
-## How we can use the tech to find out 'where you are'
+# How we can use the tech to find out 'where you are'
 
 * Demo - Emergency services
 * Other possible applications
   * Tourism spots
   * Delivery/logistics
-
-## Who we are
-
-We are a group of developers that entered Facebook Developer Circles and Andela's challenge called *[Build for Sustainable Development Goals](https://buildforsdg.andela.com/)* or #BuildForSDG for short. For the innovation phase, we were grouped together as Team-199 and come up with a solution to address social issues.
-
-_List GitHub profiles of team members_
