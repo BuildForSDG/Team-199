@@ -1,8 +1,4 @@
-- name: Fork this repo
-  link: /
-- name: [#BuildForSDG Challenge 2020](https://buildforsdg.andela.com/)
-  link: 
-- name: Facebook Developer Circles
-  link: https://developers.facebook.com/blog/post/2020/03/16/introducing-developer-circles-Andela-buildforsdg-challenge/
-- name: Andela
-  link: https://andela.com/
+- name: Who we are
+  link: /whoweare/
+- name: Links
+  link: /links/
