@@ -59,13 +59,13 @@ Here are some additional information that is usefull to have:
 ## About Us
 We are a group of developers that entered Facebook Developer Circles and Andela’s challenge called [Build for Sustainable Development Goals](https://buildforsdg.andela.com/) or #BuildForSDG for short. For the innovation phase, we were grouped as [Team-199](https://buildforsdg.github.io/Team-199/whoweare/) and to come up with a solution to address social issues.
 
- ### **Technical Team Lead:** Brian Nduhui ([Github](https://github.com/Brian-Nduhiu) / [LinkedIn](www.linkedin.com/in/brian-nduhiu-358b07121))
+ ### **Technical Team Lead:** Brian Nduhui ([Github](https://github.com/Brian-Nduhiu) / [LinkedIn](https://www.linkedin.com/in/brian-nduhiu-358b07121))
 
- ### **Front-End Developer:** Amon Namaara ([Github](https://github.com/AmonKats-dev) / [LinkedIn](www.linkedin.com/in/amon-kats-56137b162))
+ ### **Front-End Developer:** Amon Namaara ([Github](https://github.com/AmonKats-dev) / [LinkedIn](https://www.linkedin.com/in/amon-kats-56137b162))
 
- ### **Back-End Developer:** Kolawole Olulana ([Github](https://github.com/kolawoletech) / [LinkedIn](www.linkedin.com/in/kolawole-olulana-25815622))
+ ### **Back-End Developer:** Kolawole Olulana ([Github](https://github.com/kolawoletech) / [LinkedIn](https://www.linkedin.com/in/kolawole-olulana-25815622))
 
-### **Idea generator and project site:** Carike Blignaut-Staden  ([Github](https://github.com/carike) / [LinkedIn](www.linkedin.com/in/carike))
+### **Idea generator and project site:** Carike Blignaut-Staden  ([Github](https://github.com/carike) / [LinkedIn](https://www.linkedin.com/in/carike))
 
 
 ## Feedback and acknowledgements
