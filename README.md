@@ -1,11 +1,3 @@
----
-title: WYR
-subtitle: where you are
-layout: page
-show_sidebar: false
-hide_footer: true
----
-
 # No formal housing, no way to find you
 
 So many Africans do not live in formal housing and therefore also don't have a formal address.
