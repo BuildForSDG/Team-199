@@ -4,3 +4,4 @@ favicon: /favicon.png
 #footer_menu: footer_menu
 show_sidebar: false
 menubar: menu
+permalink: pretty
