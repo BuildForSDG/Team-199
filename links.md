@@ -24,6 +24,6 @@ If your curious about our idea and want to fork it on GitHub go ahead. If you bu
 
 ## Think What3Words deserves a closer look
 
-We also liked the concept and the API is developer friend with great tutorials to get you started. Definetly worth a visit!
+We also liked the concept and the API is developer friendly with great tutorials to get you started. Worth a visit!
 
 - [What3Words Developers](https://developer.what3words.com/public-api)
