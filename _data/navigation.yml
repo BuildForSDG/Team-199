@@ -1,8 +1,6 @@
-- label: Pages
-  items:
-    - name: Home
-      link: /
-    - name: Who we are
-      link: /whoweare/
-    - name: Links
-      link: /links/
+- name: Home
+  link: /
+- name: Who we are
+  link: /whoweare/
+- name: Links
+  link: /links/
