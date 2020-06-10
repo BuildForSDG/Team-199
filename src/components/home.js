@@ -1,15 +1,51 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import Map from './map';
 
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton,  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle, Textfield  } from 'react-mdl';
+
+  const api = require("@what3words/api");
+            
+  api.setOptions({ key: "what3words-api-key" });
 
 class Projects extends Component {
   constructor(props) {
     super(props);
     this.state = { activeTab: 0 };
+    this.handleOpenDialog = this.handleOpenDialog.bind(this);
+    this.handleCloseDialog = this.handleCloseDialog.bind(this);
+  }
+
+  componentDidMount() {
+    const script = document.createElement("script");
+    script.async = true;
+    script.src = "https://assets.what3words.com/sdk/v3/what3words.js?key=J0YTTNEP";
+    this.div.appendChild(script);
+
+    const script2 = document.createElement("script");
+    script2.async = true;
+    script2.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyD3UtX5ItKVQtn6vT9GHJ4FZzwveFqlnuY";
+    this.div.appendChild(script2);  
+  }
+
+  handleOpenDialog() {
+    this.setState({
+      openDialog: true,
+    });
+  }
+
+  handleCloseDialog() {
+    this.setState({
+      openDialog: false,
+    });
   }
 
   toggleCategories() {
-
+    const api = require("@what3words/api");
+            
+    api.setOptions({ key: "J0YTTNEP" });
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
@@ -34,6 +70,60 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Dialog open={this.state.openDialog}>
+              <DialogTitle>Report Crime?</DialogTitle>
+              <div className="App" ref={el => (this.div = el)}>
+                <hr/>
+
+                {/* Script is inserted here */}
+              </div>
+              <DialogContent>
+                <p>
+                  Allowing us to collect data will let us get you the
+                </p>
+                {/* Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Name"
+                  floatingLabel
+                  style={{ width: "200px" }}
+                />
+
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  pattern="-?[0-9]*(\.[0-9]+)?"
+                  error="Input is not a number!"
+                  label="Mobile Number"
+                  floatingLabel
+                />
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Address"
+                  floatingLabel
+                />
+                <what3words-autosuggest/>
+             
+
+                
+                <Map
+                  centerAroundCurrentLocation
+                  className="map"
+                  google={this.state.activeTab}
+                  style={{ height: '50%', position: 'relative', width: '100%' }}
+                  zoom={14}
+                />
+
+
+              </DialogContent>
+              <DialogActions>
+              <Button type="button">Detect Address</Button>
+                <Button type="button" onClick={this.handleCloseDialog}>
+                  Close
+                </Button>
+              </DialogActions>
+            </Dialog>
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -48,7 +138,7 @@ class Projects extends Component {
             departments.
             </CardText>
             <CardActions border>
-            <Button colored>Report Emergency</Button>
+            <Button  onClick={this.handleOpenDialog} colored>Report Emergency</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
