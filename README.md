@@ -54,6 +54,7 @@ This starter uses Parcel as the bundler. It is much simpler that WebPack and the
 
 ### Kolawole Olulana (Back-End Developer)
 * https://github.com/kolawoletech
+* www.linkedin.com/in/kolawole-olulana-25815622
 
 ### Carike Blignaut-Staden (Documentation)
 * https://github.com/Carike
