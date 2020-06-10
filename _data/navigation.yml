@@ -3,4 +3,6 @@
     - name: Home
       link: /
     - name: Who we are
-      link: /WhoWeAre/
+      link: /whoweare/
+    - name: Links
+      link: /links/
