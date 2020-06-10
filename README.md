@@ -42,14 +42,14 @@ When the user clicks on the _"Report emergency"_-button, it takes them to the ex
 1. Install npm or yarn if you dont have any of them already installed. We recommend Yarn though.
 1. After clonning the repo to your local machine and moving into the cloned folder, run ```yarn install``` to get started by installing dependencies.
 1. ```src/index.js``` is the entry to the project and source code should go into the src folder.
-1. All tests should be written in the `tests' folder. There's a sample in there.
+1. All tests should be written in the "tests" folder. There's a sample in there.
 1. This starter uses Parcel as the bundler. It is much simpler that WebPack and the others
 
 ### Hints
 
 Here are some additional information that is usefull to have:
 
-* Run ```npm install``` or ```yarn install`` to get started. We'll assume you are using Yarn.
+* Run ```npm install``` or ```yarn install``` to get started. We'll assume you are using Yarn.
 * Install additional dependencies: ```yarn add <dependency-name> [-D]```
 * Run tests: ```yarn test```
 * Run tests with test coverage info: ```yarn test:cover```
