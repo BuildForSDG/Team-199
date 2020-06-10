@@ -43,9 +43,7 @@ class Projects extends Component {
   }
 
   toggleCategories() {
-    const api = require("@what3words/api");
-            
-    api.setOptions({ key: "J0YTTNEP" });
+
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
@@ -64,9 +62,9 @@ class Projects extends Component {
                 You can also report a possible terrorist threat online.
 
             </CardText>
-            <CardActions border>
-              <Button colored>Report Emergency</Button>
-            </CardActions>
+            <Button onClick={this.handleOpenDialog} colored>
+                Report Emergency
+              </Button>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
@@ -105,7 +103,7 @@ class Projects extends Component {
                 />
                 <what3words-autosuggest/>
              
-
+               < Map/>
                 
                 <Map
                   centerAroundCurrentLocation
@@ -143,6 +141,59 @@ class Projects extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Dialog open={this.state.openDialog}>
+              <DialogTitle>Report Crime?</DialogTitle>
+              <div className="App" ref={el => (this.div = el)}>
+                <hr/>
+
+                {/* Script is inserted here */}
+              </div>
+              <DialogContent>
+                <p>
+                  Allowing us to collect data will let us get you the
+                  information you want faster.
+                </p>
+                {/* Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Name"
+                  floatingLabel
+                  style={{ width: "200px" }}
+                />
+
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  pattern="-?[0-9]*(\.[0-9]+)?"
+                  error="Input is not a number!"
+                  label="Mobile Number"
+                  floatingLabel
+                />
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Address"
+                  floatingLabel
+                />
+                <what3words-autosuggest/>
+                
+                <Map
+                  centerAroundCurrentLocation
+                  className="map"
+                  google={this.state.activeTab}
+                  style={{ height: '100%', position: 'relative', width: '100%' }}
+                  zoom={14}
+                />
+
+
+              </DialogContent>
+              <DialogActions>
+                <Button type="button">Detect Address</Button>
+                <Button type="button" onClick={this.handleCloseDialog}>
+                  Close
+                </Button>
+              </DialogActions>
+            </Dialog>
           </Card>
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -154,12 +205,67 @@ class Projects extends Component {
             is placed to 9-1-1, to treatment at the scene and transport to hospital. <br /><br />
             African paramedics and support staff are also proud and active members of their communities, devoting countless volunteer service hours to local events and public education campaigns.
             </CardText>
-            <CardActions border>
-            <Button colored>Report Emergency</Button>
-            </CardActions>
+            <Button onClick={this.handleOpenDialog} colored>
+                Report Emergency
+              </Button>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
+            <Dialog open={this.state.openDialog}>
+              <DialogTitle>Report Crime?</DialogTitle>
+              <div className="App" ref={el => (this.div = el)}>
+                <hr/>
+
+                {/* Script is inserted here */}
+              </div>
+              <DialogContent>
+                <p>
+                  Allowing us to collect data will let us get you the
+                  information you want faster.
+                </p>
+                {/* Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Name"
+                  floatingLabel
+                  style={{ width: "200px" }}
+                />
+
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  pattern="-?[0-9]*(\.[0-9]+)?"
+                  error="Input is not a number!"
+                  label="Mobile Number"
+                  floatingLabel
+                />
+                {/* Numeric Textfield with floating label */}
+                <Textfield
+                  onChange={() => {}}
+                  label="Address"
+                  floatingLabel
+                />
+                <what3words-autosuggest/>
+                <Map
+                  centerAroundCurrentLocation
+                  className="map"
+                  google={this.state.activeTab}
+                  style={{ height: '100%', position: 'relative', width: '100%' }}
+                  zoom={14}
+                />
+                <Button type="button">Detect Address</Button>
+                <Button type="button" onClick={this.handleCloseDialog}>
+                  Close
+                </Button>
+           
+              </DialogContent>
+              <DialogActions>
+                <Button type="button">Detect Address</Button>
+                <Button type="button" onClick={this.handleCloseDialog}>
+                  Close
+                </Button>
+              </DialogActions>
+            </Dialog>
           </Card>
 
         </div>
