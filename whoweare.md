@@ -3,6 +3,8 @@ title: Who we are
 subtitle: The team behind the application
 layout: page
 show_sidebar: false
+menubar: menu
+hide_footer: true
 ---
 
 ## Who we are
