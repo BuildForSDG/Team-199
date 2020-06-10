@@ -1,2 +1,4 @@
 #theme: jekyll-theme-merlot
 remote_theme: chrisrhymes/bulma-clean-theme
+favicon: /favicon.png
+footer_menu: footer_menu
