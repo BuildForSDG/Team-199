@@ -17,7 +17,7 @@ To address this issue, no pun intended, we will leveraging off the concept creat
 To illustrate the difference between What3Words and GPS coordinates let see which address format for Andela's Headoffice would you prefer to remember off by heart:
 
 | Type | Format | Andela in Lagos Nigeria |
-|---|---|---|
+|:---:|:---:|:---:|
 | Degrees, Minutes and Seconds | DDD° MM' SS.S"  | 6°33'13.5"N 3°21'59.5"E |
 | Degrees and Decimal Minutes | DDD° MM.MMM' | 6° 33.2257 'N 3° 21.9924 'E |
 | Decimal Degrees  | DDD.DDDDD°   |  6.553762, 3.366540 |
