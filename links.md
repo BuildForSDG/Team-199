@@ -3,6 +3,8 @@ title: Links
 subtitle: Additional resources on the web
 layout: page
 show_sidebar: false
+menubar: menu
+hide_footer: true
 ---
 
 ## Want to find out more about #BuildForSDG
