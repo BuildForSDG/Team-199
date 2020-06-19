@@ -28,9 +28,9 @@ To illustrate the difference between What3Words and GPS coordinates let see whic
 Which one wat the easiest for you to memorise? What3Words is simple and there is only one format so it can be confusing like with the GPS formats.
 
 Want to find out What3Words constitute your address or a favourite meeting spot?
-_Click on the image below to test it out_
+_[Click here to test it out](https://codepen.io/Carike/full/bGEwMLx)_
 
-[![Click here](../gh-pages/codepen_thumbnail.png)](https://codepen.io/Carike/full/bGEwMLx)
+[![CodePen](https://github.com/BuildForSDG/Team-199/blob/gh-pages/codepen_thumbnail.png)](https://codepen.io/Carike/full/bGEwMLx)
 
 ## How we can use the tech to find out 'where you are'
 
