@@ -12,8 +12,8 @@ We are a group of developers that entered Facebook Developer Circles and Andela'
 
 ## Meet the team
 
-* [Amon](https://github.com/AmonKats-dev)
-* [Brian Nduhiu](https://github.com/Brian-Nduhiu)
-* [Carike Blignaut-Staden](https://github.com/Carike)
-* [Olulana Kolawole](https://github.com/kolawoletech)
-* [Charles](https://github.com/Craques)
+* Amon Namaara ([Github](https://github.com/AmonKats-dev) / [LinkedIn](https://www.linkedin.com/in/amon-kats-56137b162))
+* Brian Nduhui ([Github](https://github.com/Brian-Nduhiu) / [LinkedIn](https://www.linkedin.com/in/brian-nduhiu-358b07121))
+* Carike Blignaut-Staden  ([Github](https://github.com/carike) / [LinkedIn](https://www.linkedin.com/in/carike))
+* Kolawole Olulana ([Github](https://github.com/kolawoletech) / [LinkedIn](https://www.linkedin.com/in/kolawole-olulana-25815622))
+* Charles ([GitHub](https://github.com/Craques))
