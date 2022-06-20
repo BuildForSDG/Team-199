@@ -59,7 +59,7 @@ Here are some additional information that is usefull to have:
 ## About Us
 We are a group of developers that entered Facebook Developer Circles and Andela’s challenge called [Build for Sustainable Development Goals](https://buildforsdg.andela.com/) or #BuildForSDG for short. For the innovation phase, we were grouped as [Team-199](https://buildforsdg.github.io/Team-199/whoweare/) and to come up with a solution to address social issues.
 
- ### **Technical Team Lead:** Brian Nduhui ([Github](https://github.com/Brian-Nduhiu) / [LinkedIn](https://www.linkedin.com/in/brian-nduhiu-358b07121))
+ ### **Technical Team Lead:** Brian Nduhiu ([Github](https://github.com/Brian-Nduhiu) / [LinkedIn](https://www.linkedin.com/in/brian-nduhiu-358b07121))
 
  ### **Front-End Developer:** Amon Namaara ([Github](https://github.com/AmonKats-dev) / [LinkedIn](https://www.linkedin.com/in/amon-kats-56137b162))
 
